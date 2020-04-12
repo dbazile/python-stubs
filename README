@@ -1,0 +1,15 @@
+python-stubs
+
+MODULES
+
+  gi  pygobject-3.34.0
+
+
+USAGE
+
+  The following works for IntelliJ and Python 3.7, though I'm sure there's
+  a cleaner way to do this:
+
+    $ ln -s $PWD/gi ~/.local/lib/python-3.7/site-packages/gi-stubs
+
+  TODO: add method that works with Sublime+Anaconda
