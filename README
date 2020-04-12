@@ -1,8 +1,21 @@
 python-stubs
 
+DESCRIPTION
+
+  A collection of Python type stubs I use in IntelliJ that aren't
+  available through normal channels. I maintain this junk by hand so
+  they may fall out of sync...
+
+
 MODULES
 
-  gi  pygobject-3.34.0
+  gi (pygobject-3.34.0):
+
+    Classes, methods and enumerations taken from PyGObject documentation
+    on an as-needed basis (Gtk and Gdk, mostly).
+
+    Source:
+    https://lazka.github.io/pgi-docs/#Gtk-3.0/classes/Window.html#Gtk.Window
 
 
 USAGE
